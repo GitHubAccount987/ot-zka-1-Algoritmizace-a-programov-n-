@@ -68,10 +68,11 @@ public class Main {
                 continue;
             }
 
+            if (height < 2) { System.out.println("Výška musí být větší jak 1"); continue; }
+
             break;
         }
 
-        if (height < 2) System.out.println("Výška musí být větší jak 1");
 
         int accumulator = 1;
         int increment = 1;
@@ -95,13 +96,17 @@ public class Main {
 
         System.out.println("-- // ASSIGNMENT 2 \\\\ --");
 
-        System.out.print("zadejte větu: ");
+        System.out.print("Zadejte větu: ");
 
         Scanner scanner = new Scanner(System.in, "Windows-1250");
 
         String sentence = scanner.nextLine();
 
+        System.out.print("Pozpátku: ");
+
         for (int i = sentence.length() - 1; i >= 0; i--) System.out.print(sentence.charAt(i));
+
+        System.out.println();
 
         System.out.println("-- // END OF ASSIGNMENT 2 \\\\ --");
     }
@@ -110,7 +115,7 @@ public class Main {
 
         System.out.println("-- // ASSIGNMENT 3 \\\\ --");
 
-        System.out.print("Zadejte větu: ");
+        System.out.print("Padejte větu: ");
 
         Scanner scanner = new Scanner(System.in, "Windows-1250");
 
@@ -122,6 +127,8 @@ public class Main {
         int accumulator = 0;
 
         while (matcher.find()) accumulator++;
+
+        System.out.print("Počet slov: ");
 
         System.out.println(accumulator);
 
