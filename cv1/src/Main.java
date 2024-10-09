@@ -39,7 +39,7 @@ public class Main {
                 case 4:
                     return;
                 default:
-                    System.out.println("\nNeznámá možnost!\n");
+                    System.out.println("\nTak tuhle možnost neznám\n");
 
             }
         }
