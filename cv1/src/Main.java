@@ -10,7 +10,7 @@ public class Main {
 
         while (true) {
 
-            System.out.print("Vyberte úlohu:\n1 → úloha č. 1 (trojúhelník)\n2 → Úloha č. 2 (věta pozpátku)\n3 → Úloha č. 3 (počet slov)\n4 → Ukončit program\nMožnost: ");
+            System.out.print("Vyberte úlohu:\n1 → Úloha č. 1 (trojúhelník)\n2 → Úloha č. 2 (věta pozpátku)\n3 → Úloha č. 3 (počet slov)\n4 → Ukončit program\nMožnost: ");
 
             int identifier;
 
