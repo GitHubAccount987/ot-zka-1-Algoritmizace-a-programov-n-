@@ -68,7 +68,7 @@ public class Main {
                 continue;
             }
 
-            if (height < 2) { System.out.println("Výška musí být větší jak 1"); continue; }
+            if (height < 2) { System.out.println("Výška musí být větší než 1"); continue; }
 
             break;
         }
