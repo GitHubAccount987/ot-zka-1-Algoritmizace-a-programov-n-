@@ -115,7 +115,7 @@ public class Main {
 
         System.out.println("-- // ASSIGNMENT 3 \\\\ --");
 
-        System.out.print("Padejte větu: ");
+        System.out.print("Zadejte větu: ");
 
         Scanner scanner = new Scanner(System.in, "Windows-1250");
 
